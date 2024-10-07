@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playfair Cipher Encoder</title>    
+    <script src="{{ url_for('static', filename='script.js') }}"></script> 
+</head>
+<body>
+    <h1>Playfair Cipher Encrypter</h1>
+    <form>
+        <input type="text" id="key" placeholder="Message" required>
+        <input type="text" id="message" placeholder="Encryption Key" required>
+        <button>Encrypt</button>
+    </form>
+    <div id="result" style="margin-top: 20px;"></div>
+</body>
+</html>
