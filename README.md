@@ -14,6 +14,8 @@ This project is a website which allows you to enter a key and a message to be en
     Mac: `pip3 install -r requirements.txt`
     Windows: `pip install -r requirements.txt`
 
-4. Run PacMan by either pressing the run button in your IDE or entering the following into your terminal:
+4. Run the website by either pressing the run button in your IDE or entering the following into your terminal:
     Mac: `python3 app.py`
     Windows: `python app.py`
+
+5. Access the wesbite by copy and pasting the following link into a browser: http://127.0.0.1:5000
