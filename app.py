@@ -16,7 +16,7 @@ def encrypt():
     matrix = build_matrix(key)
     encrypted_message = encrypt_message(message, matrix)
     return jsonify(
-        key=' '.join(key),  # Join the key list back into a string
+        key=' '.join(key),  
         original_message=message,
         encrypted_message=encrypted_message
     )
