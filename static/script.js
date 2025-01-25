@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelector("form").onsubmit = function(event) {
         event.preventDefault(); 
         
-        const key = document.querySelector("#message").value;
-        const message = document.querySelector("#key").value;
+        const key = document.querySelector("#key").value;
+        const message = document.querySelector("#message").value;
 
         fetch("/encrypt", {
             method: "POST",  
